@@ -62,7 +62,7 @@ const Navbar = () => {
       sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 200  }} 
     >
       <InputBase
-        sx={{ ml: 1, flex: 1 ,color:"gray"}}
+        sx={{ ml: 1, flex: 1 }}
         placeholder="Axtarış"
         inputProps={{ 'aria-label': 'search' }}
       />
@@ -74,7 +74,7 @@ const Navbar = () => {
                </Paper >
                </Left>
                <Center>
-                <Logo>Logo</Logo>
+                <Logo>Fashion</Logo>
                </Center>
                <Right>
                 <MenuItem>QEYDİYYAT</MenuItem>
